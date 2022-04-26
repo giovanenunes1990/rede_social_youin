@@ -1,3 +1,13 @@
+## Descrição
+
+Uma rede social baseada no Facebook com elementos do instagram, seguindo a estrutura MVC em PHP, usando <a href="https://clancats.io/hydrahon/master/"> SQL QUERY BUILDER - Hydrahon</a>.
+
+
+## Requisitos 
+
+-- <a href="https://www.apachefriends.org/pt_br/index.html">XAMPP</a>
+-- <a href="https://getcomposer.org/">Composer</a>
+
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
@@ -7,6 +17,8 @@ Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
 > composer install
 
 Depois é só aguardar.
+
+Importar o arquivo > "cyberlife.sql" no phpmyadmin o gerenciador do mysql
 
 ## Configuração
 Todos os arquivos de **configuração** e aplicação estão dentro da pasta *src*.
