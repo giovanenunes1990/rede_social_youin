@@ -4,11 +4,26 @@ Uma rede social baseada no Facebook com elementos do instagram, seguindo a estru
 
 <div align="center">
   <div style="display: flex; align-items: flex-start; justify-content: center;">
-    <img width="250px"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/chat.png"/>
-    <img width="250px"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/home%20mobile.png" />
-    <img width="250px"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/notifica%C3%A7%C3%B5es.png" />
+    <img width="45%" src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/home%20desktop.png"/>
+    <img  width="45%" src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/login.png" />
   </div>
 </div>
+
+<div align="center">
+  <div style="display: flex; align-items: flex-start; justify-content: center;">
+      <img  width="45%" src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/modal%20image.png" />
+      <img  width="45%" src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/perfil.png" />
+  </div>
+</div>
+
+<div align="center">
+  <div style="display: flex; align-items: flex-start; justify-content: center;">
+    <img width="30%"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/chat.png"/>
+    <img width="30%"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/home%20mobile.png" />
+    <img width="30%"  src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/notifica%C3%A7%C3%B5es.png" />
+  </div>
+</div>
+
 
 ## Requisitos 
 
