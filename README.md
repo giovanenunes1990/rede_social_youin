@@ -2,6 +2,13 @@
 
 Uma rede social baseada no Facebook com elementos do instagram, seguindo a estrutura MVC em PHP, usando <a href="https://clancats.io/hydrahon/master/"> SQL QUERY BUILDER - Hydrahon</a>.
 
+<div align="center">
+  <div style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/chat.png"/>
+    <img src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/home%20mobile.png" />
+    <img src="https://github.com/giovanenunes1990/rede_social_youin/blob/main/screenshots/notifica%C3%A7%C3%B5es.png" />
+  </div>
+</div>
 
 ## Requisitos 
 
