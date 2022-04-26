@@ -1,0 +1,311 @@
+@import 'defaults.css';
+
+:root {
+    --main: linear-gradient(343deg, rgba(183, 78, 255, 1) 0%, rgba(63, 67, 250, 1) 51%, rgba(1, 78, 254, 1) 100%);
+    --blue: rgba(1, 78, 254, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-alt {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 13px;
+    background-color: #edeef0;
+    margin: 0;
+    padding-bottom: 50px;
+
+}
+
+.container {
+    margin: auto;
+}
+
+
+form {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    display: block;
+}
+
+form .input {
+    font-size: 15px;
+    font-style: italic;
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #DDD;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+form .button {
+    border: 0;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: var(--main);
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #999;
+    transition: 1s;
+}
+
+.mt--20 {
+    margin-top: -20px !important;
+}
+
+form .button:hover {
+    transform: scale(1.05);
+}
+
+form a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.form {
+    width: 50%;
+    min-height: 200px;
+    padding: 12px;
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    -webkit-box-shadow: 1px 12px 15px 2px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 12px 15px 2px rgba(0, 0, 0, 0.26);
+}
+
+
+.underline-4,
+.underline-3,
+.underline-2,
+.underline-1,
+.underline {
+    z-index: 999;
+    position: relative;
+    top: -18px;
+    height: 2px;
+    width: 100%;
+    background: var(--main);
+    transition: 0.4s;
+    transform-origin: left;
+    transform: scaleX(0);
+
+}
+
+input[name=birthdate]:focus~.underline-4,
+input[name=passwordrepeter]:focus~.underline-3,
+input[type=text]:focus~.underline-2,
+input[type=email]:focus~.underline-1,
+#password2:focus~.underline,
+#password:focus~.underline {
+    transform: scaleX(1);
+}
+
+.eye2 img,
+.eye img {
+    width: 22px;
+    z-index: 2;
+    cursor: pointer;
+    position: relative;
+    top: -46px;
+}
+
+.eye2,
+.eye {
+    display: flex;
+    justify-content: end;
+}
+
+.pack-password {
+    margin-top: -1px;
+}
+
+.pack-password:last-of-type {
+    margin-top: -20px;
+}
+
+.form .logo {
+    width: 100%;
+    text-align: center;
+}
+
+.form .logo img {
+    max-width: 200px;
+}
+
+.alert-login {
+    background-color: rgb(228, 228, 228);
+    color: rgb(34, 34, 34);
+    padding: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alert-login a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+#free {
+    margin-left: auto;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+
+.flash .close,
+.flash p {
+    background-color: rgb(248, 47, 47) !important;
+}
+
+.success {
+    background-color: rgb(67, 194, 124) !important;
+    color: rgb(4, 61, 4) !important;
+}
+
+.warning {
+    transition: all ease 0.3s;
+    position: fixed;
+    top: 40px;
+    right: -240px;
+    color: white;
+    z-index: 12;
+    animation-name: warning;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes warning {
+    0% {
+        right: -240px;
+    }
+
+    50% {
+        right: 65px;
+    }
+
+    100% {
+        right: 2%;
+    }
+}
+
+
+
+.box-warning {
+    -webkit-box-shadow: 2px 8px 36px 11px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 8px 36px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.box-warning p {
+    background-color: rgb(55, 182, 55);
+    padding: 12px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.box-warning .close {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: rgb(55, 182, 55);
+    color: white;
+    padding: 12px;
+    border-left: 0.1px solid white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 0.3s;
+}
+
+.box-warning .close:hover {
+    color: #eeeeee;
+}
+
+.verify {
+    text-align: left;
+    position: relative;
+    top: -20px;
+    margin-left: 25px;
+    color: rgb(70, 70, 70);
+
+}
+
+.verify ul {
+    margin-top: 5px;
+}
+
+.verify .has {
+    color: rgb(1, 189, 1);
+}
+
+.verify,
+#repeater-password,
+#submit-signup {
+    display: none;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-splash {
+        display: none;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+}
